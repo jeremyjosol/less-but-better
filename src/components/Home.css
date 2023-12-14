@@ -1,0 +1,35 @@
+.home-container {
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.project-title {
+  font-size: 5.0em;
+}
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-container {
+  flex: 1;
+  max-width: 100%;
+  margin-left: 200px;
+}
+
+.image-container {
+  flex-shrink: 0; 
+  margin-right: 150px;
+}
+
+.image-container img {
+  width: 500px;
+  height: 500px;
+}
+
+.strength {
+  font-weight: bolder;
+  color: black;
+}
