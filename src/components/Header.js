@@ -7,8 +7,8 @@ const Header = () => {
   const scrollToSection = (id) => {
     scroll.scrollTo(id, {
       containerId: id,
-      duration: 200,
-      smooth: 'easeInOutQuart',
+      duration: 50,
+      smooth: 'easeInOutCubic',
       offset: 0,
     });
   };
@@ -31,7 +31,7 @@ const Header = () => {
                 spy={true}
                 smooth="easeInOutQuart"
                 offset={0}
-                duration={200}
+                duration={50}
                 onClick={(event) => {
                   event.preventDefault(); 
                   scrollToSection('home');
@@ -48,7 +48,7 @@ const Header = () => {
                 spy={true}
                 smooth="easeInOutQuart"
                 offset={0}
-                duration={200}
+                duration={50}
                 onClick={(event) => {
                   event.preventDefault();
                   scrollToSection('about');
@@ -65,7 +65,7 @@ const Header = () => {
                 spy={true}
                 smooth="easeInOutQuart"
                 offset={0}
-                duration={200}
+                duration={50}
                 onClick={(event) => {
                   event.preventDefault();
                   scrollToSection('process');
