@@ -6,15 +6,38 @@
 }
 
 .navbar {
-  background-color: #343a40; 
+  position: relative;
+  background-color: black;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; 
+  left: 0;
+  width: 100%;
+  height: 2px; 
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0));
+  animation: glowing-border-animation 10s infinite;
+}
+
+@keyframes glowing-border-animation {
+  0% {
+    opacity: 0.8; 
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
 }
 
 .nav-link {
-  color: #fff !important; 
+  color: #fff !important;
   cursor: pointer;
 }
 
 .nav-link:hover {
   color: #007bff !important; 
 }
-
