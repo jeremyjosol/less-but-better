@@ -1,9 +1,17 @@
-// Home.js
 import React from 'react';
-import particles from '../img/Particles.jpg';
+import dots from '../img/Dots.png';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import './Home.css';
 
 const Home = () => {
+  const scrollToAbout = () => {
+    scroll.scrollTo('about', {
+      duration: 50,
+      smooth: 'easeInOutQuart',
+      offset: -70,
+    });
+  };
+
   return (
     <div className="home-container" id="home">
       <div className="hero-layout">
@@ -15,13 +23,23 @@ const Home = () => {
           <p>
             SPH simulations are widely used in various fields, including fluid dynamics, astrophysics, and computer graphics, modeling complex fluid behaviors.
           </p>
+          <ScrollLink
+            className="btn btn-primary learn-more"
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={50}
+            onClick={scrollToAbout}
+          >
+            LEARN MORE
+          </ScrollLink>
         </div>
         <div className="image-container">
-          <img src={particles} alt="Dieter Rams style dots." />
+          <img src={dots} alt="Dots" />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Home;

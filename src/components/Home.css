@@ -33,3 +33,18 @@
   font-weight: bolder;
   color: black;
 }
+
+.learn-more {
+  float: right;
+  margin-right: 50px;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #2196F3, #FF4081); 
+  color: #fff; 
+  padding: 10px 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+.learn-more:hover {
+  background: linear-gradient(45deg, #FF4081, #2196F3); 
+}
