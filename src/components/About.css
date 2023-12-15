@@ -12,11 +12,11 @@
 
 .essence {
   font-size: 6.5em;
-  background: linear-gradient(135deg, #4d7fff, #67d2e4); /* Adjust colors as needed */
+  background: linear-gradient(135deg, #4d7fff, #67d2e4); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
-  text-shadow: 0 0 25px rgba(0, 120, 112, 0.5); /* Adjust the shadow color and size as needed */
+  text-shadow: 0 0 25px rgba(0, 120, 112, 0.5); 
 }
 
 .about-container h2 {
@@ -56,7 +56,57 @@
   animation: rotateImage linear 25s infinite;
   animation-play-state: running;
   user-select: none; 
+}
 
+@media screen and (max-width: 1100px) {
+  .about-text-container, .about-hero-layout {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .about-text-container, .about-hero-layout {
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-text-container, .about-hero-layout {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about-text-container, .about-hero-layout {
+    margin-left: 15px;
+    right: 25px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .about-text-container, .about-hero-layout {
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .essence {
+    font-size: 5.0em;
+  }
+
+  .about-text-container, .about-hero-layout {
+    margin-left: 20px;
+    right: 28px;
+  }
+
+  .about-text-container p {
+    font-size: 14px;
+  }
+
+  .about-image-container img {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 @keyframes rotateImage {
