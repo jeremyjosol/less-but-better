@@ -7,7 +7,7 @@
 
 .navbar {
   position: relative;
-  background-color: black;
+  background-color: rgba(27, 26, 26, 0.194);
 }
 
 .navbar::after {

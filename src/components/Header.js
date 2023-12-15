@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className="fixed-header">
-      <Navbar expand="lg" bg="dark" variant="dark">
+      <Navbar expand="lg">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navbar-nav">
@@ -37,7 +37,7 @@ const Header = () => {
                   scrollToSection('home');
                 }}
               >
-                Home
+                BASE
               </ScrollLink>
             </Nav.Item>
             <Nav.Item>
@@ -54,7 +54,7 @@ const Header = () => {
                   scrollToSection('about');
                 }}
               >
-                About
+                ESSENCE
               </ScrollLink>
             </Nav.Item>
             <Nav.Item>
@@ -71,7 +71,7 @@ const Header = () => {
                   scrollToSection('process');
                 }}
               >
-                Process
+                EXPERIMENTS
               </ScrollLink>
             </Nav.Item>
           </Nav>
