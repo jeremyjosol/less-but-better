@@ -30,7 +30,7 @@ const Header = () => {
                 activeClass="active"
                 spy={true}
                 smooth="easeInOutQuart"
-                offset={0}
+                offset={-100}
                 duration={50}
                 onClick={(event) => {
                   event.preventDefault(); 
@@ -47,7 +47,7 @@ const Header = () => {
                 activeClass="active"
                 spy={true}
                 smooth="easeInOutQuart"
-                offset={0}
+                offset={-55}
                 duration={50}
                 onClick={(event) => {
                   event.preventDefault();
