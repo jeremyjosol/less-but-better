@@ -1,6 +1,7 @@
 .home-container {
   height: 100vh;
   margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-title {
