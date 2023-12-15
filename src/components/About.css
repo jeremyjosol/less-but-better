@@ -10,10 +10,18 @@
   margin-bottom: 50px; 
 }
 
+.essence {
+  font-size: 6.5em;
+  background: linear-gradient(135deg, #4d7fff, #67d2e4); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  text-shadow: 0 0 25px rgba(0, 120, 112, 0.5); /* Adjust the shadow color and size as needed */
+}
+
 .about-container h2 {
   position: relative;
   z-index: 2;
-  color: #fff; 
 }
 
 .about-hero-layout {
@@ -30,6 +38,10 @@
   margin-bottom: 100px;
   max-height: 150px;
   color: white;
+}
+
+.about-text-container p {
+  margin-top: 40px;
 }
 
 .about-image-container {
@@ -54,4 +66,13 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
 }
