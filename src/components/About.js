@@ -37,7 +37,10 @@ const About = () => {
             Essence
           </h2>
           <p>
-            Smoothed Particle Hydrodynamics (SPH) is a computational method used for
+            <span className='sph'>SMOOTHED PARTICLE HYDRODYNAMICS</span>
+            <br />
+            <br />
+             A computational method used for
             simulating fluid flows. It represents fluid as a set of particles and
             applies smoothed interpolation functions to calculate fluid properties at
             each particle location.
