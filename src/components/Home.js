@@ -18,10 +18,10 @@ const Home = () => {
         <div className="text-container">
           <h2 className='project-title'>Less, But Better.</h2>
           <p>
-            Welcome to our exploration. This application was designed with the intention of observing and interacting with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <em>Unity</em>.
+            Welcome to exploration. This application was designed with the intention of observing and interacting with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <em>Unity</em>.
           </p>
-          <p>
-            SPH simulations are widely used in various fields, including fluid dynamics, astrophysics, and computer graphics, modeling complex fluid behaviors.
+          <p className='p2'>
+            Inspired by the ethos of Dieter Rams, we present our findings with as little design as possible, allowing the essence of <strong className='strength2'>SPH</strong> to unfold organically.
           </p>
           <ScrollLink
             className="btn btn-primary learn-more"

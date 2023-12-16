@@ -6,6 +6,7 @@
 
 .project-title {
   font-size: 5.0em;
+  letter-spacing: -3px;
 }
 
 @media screen and (max-width: 1430px) {
@@ -303,7 +304,7 @@
 
 @media screen and (max-width: 600px) {
   .home-container {
-    margin-top: 180px;
+    margin-top: 165px;
   }
 
   .image-container {
@@ -354,8 +355,9 @@
 }
 
 .strength {
-  font-weight: bolder;
+  font-weight: 600;
   color: black;
+  letter-spacing: -0.5px;
 }
 
 .learn-more {
@@ -379,3 +381,7 @@
     font-size: 12px;
   }
 }
+
+.p2 { 
+    font-size: 16.5px;
+  }
