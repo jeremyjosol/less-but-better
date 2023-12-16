@@ -14,7 +14,7 @@
 .essence {
   font-family: 'Lato', sans-serif;
   font-size: 6.5em;
-  background: linear-gradient(135deg, #4d7fff, #67d2e4, rgb(61, 61, 255)); 
+  background: linear-gradient(135deg, #4d7fffbe, #67d2e4, rgba(148, 148, 255, 0.626)); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
