@@ -19,7 +19,8 @@ const Header = () => {
 
   return (
     <header className="fixed-header">
-      <Navbar expand="sm" bg="light" variant="light">        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar expand="sm" bg="light" variant="light">        
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item>
@@ -59,7 +60,7 @@ const Header = () => {
             <Nav.Item>
               <ScrollLink
                 className="nav-link"
-                to="process"
+                to="sequence"
                 activeClass="active"
                 spy={true}
                 smooth="easeInOutQuart"
@@ -67,7 +68,7 @@ const Header = () => {
                 duration={50}
                 onClick={(event) => {
                   event.preventDefault();
-                  scrollToSection('process');
+                  scrollToSection('sequence');
                 }}
               >
                 SEQUENCE

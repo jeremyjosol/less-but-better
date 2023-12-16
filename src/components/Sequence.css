@@ -1,0 +1,44 @@
+.sequence-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.sequence-container h1 {
+  margin-bottom: -35px;
+}
+
+.sequence1 {
+  font-size: 5em;
+}
+
+.sequence2 {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.8); 
+}
+
+.sequence3 {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.7); 
+}
+
+.sequence4 {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.6); 
+}
+
+.sequence5 {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.5); 
+}
+
+.sequence6 {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.4); 
+}
+
+.sequence7 {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.3); 
+}
