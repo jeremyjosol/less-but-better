@@ -360,15 +360,14 @@
 
 .learn-more {
   font-size: 13px;
-  float: right;
+  float: left;
   margin-right: 50px;
-  border-radius: 25px;
   background: linear-gradient(45deg, #2196F3, #FF4081); 
   color: #fff; 
   padding: 10px 20px;
   text-decoration: none;
   outline: none;
-  width: 125px;
+  width: 150px;
 }
 
 .learn-more:hover {
