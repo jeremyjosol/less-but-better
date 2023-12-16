@@ -8,7 +8,7 @@ const Home = () => {
     scroll.scrollTo('about', {
       duration: 50,
       smooth: 'easeInOutQuart',
-      offset: -70,
+      offset: -55,
     });
   };
 
@@ -28,6 +28,7 @@ const Home = () => {
             to="about"
             spy={true}
             smooth={true}
+            offset={-55}
             duration={50}
             onClick={scrollToAbout}
           >
