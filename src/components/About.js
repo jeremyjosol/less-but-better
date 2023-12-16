@@ -34,7 +34,7 @@ const About = () => {
         </div>
         <div className="about-text-container">
           <h2 ref={titleRef} className="essence fade-in">
-            ESSENCE
+            Essence
           </h2>
           <p>
             Smoothed Particle Hydrodynamics (SPH) is a computational method used for
