@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'react-scroll';
 import techParticles from '../img/TechParticles.jpg';
 import './About.css';
+import { FaChevronDown } from "react-icons/fa";
 
 const About = () => {
   const titleRef = useRef(null);
@@ -49,8 +51,16 @@ const About = () => {
             SPH simulations are widely used in various fields, including fluid
             dynamics, astrophysics, and computer graphics, providing a versatile
             approach to model complex fluid behaviors.
-          </p>        
+          </p>
         </div>
+        <Link to="sequence" 
+                activeClass="active"
+                spy={true}
+                smooth="easeInOutQuart"
+                offset={0}
+                duration={50}className="down-icon">
+          <FaChevronDown />
+        </Link>
       </div>
     </div>
   );

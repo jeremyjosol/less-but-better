@@ -138,3 +138,23 @@
   letter-spacing: 2.2px;
   color: white;
 }
+
+.down-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.131);
+  padding: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+.down-icon:hover {
+  color: #dddddd; 
+  background-color: rgba(255, 255, 255, 0.112);
+}
