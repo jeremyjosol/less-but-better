@@ -1,12 +1,9 @@
 .sequence-container {
   text-align: center;
   margin: auto;
-  margin-top: 250px;
-  height: 100vh;
-}
-
-.sequence-container h1 {
-  margin-bottom: -35px;
+  padding-top: 75px;
+  min-height: 100vh;
+  margin-bottom: -50px;
 }
 
 .sequence1, 
@@ -17,6 +14,7 @@
 .sequence6,
 .sequence7  {
   font-size: 5em;
+  margin-bottom: -35px;
 }
 
 .sequence2 {
@@ -41,4 +39,24 @@
 
 .sequence7 {
   color: rgba(0, 0, 0, 0.3); 
+}
+
+.sequence-down-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.131);
+  padding: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sequence-down-icon:hover {
+  color: #dddddd;
+  background-color: rgba(255, 255, 255, 0.112);
 }
