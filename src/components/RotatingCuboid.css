@@ -21,6 +21,7 @@
   border: 1px solid rgb(0, 0, 255);
   box-sizing: border-box;
   background: transparent;
+  cursor: pointer;
 }
 
 .front { transform: translateZ(4.2rem); }
