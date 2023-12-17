@@ -7,6 +7,7 @@
 
 .navbar {
   position: relative;
+  margin-left: 10px;
 }
 
 .navbar::after {
@@ -32,7 +33,8 @@
 }
 
 .nav-link {
-  color: black;
+  font-size: 13.6px;
+  color: rgba(50, 50, 50, 0.235);
   cursor: pointer;
 }
 
