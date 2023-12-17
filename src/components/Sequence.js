@@ -11,9 +11,6 @@ const Sequence = () => {
       if (voidRef.current) {
         const rect = voidRef.current.getBoundingClientRect();
         const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
-        if (isInViewport) {
-          console.log('Section with ID "void" is in the viewport');
-        }
       }
     };
 
