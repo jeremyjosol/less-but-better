@@ -51,10 +51,8 @@ video {
   background: none;
 }
 
-.slick-dots {
-  margin-top: 25px;
-}
-
-.dots {
-  margin-top: 500px;
+.prototype {
+  color: white;
+  margin-left: 15px;
+  font-weight: 100;
 }

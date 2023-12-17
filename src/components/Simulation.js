@@ -16,12 +16,13 @@ const settings = {
 
 const Simulation = () => {
   const videos = [
-    { id: 1, src: simulationOne, title: 'PHASE ONE' },
+    { id: 1, src: simulationOne, title: '' },
     { id: 2, src: simulationTwo, title: ''},
   ];
 
 return (
   <div className='simulation-container' id='simulation'>
+    <h1 className='prototype'>Prototype</h1>
     <Slider {...settings}>
         {videos.map((video) => (
           <div key={video.id}>
