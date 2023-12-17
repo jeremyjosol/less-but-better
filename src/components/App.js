@@ -3,6 +3,7 @@ import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Sequence from './Sequence';
+import Void from './Void';
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
       <Home />
       <About />
       <Sequence />
+      <div className='cuboid'>
+        <Void />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,44 @@
+.cuboid {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.cuboid-container {
+  width: 8rem;
+  height: 20rem;
+  position: relative;
+  margin: 50px auto;
+  top: 200px;
+  perspective: 7500px;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+}
+
+.face {
+  position: absolute;
+  width: 8rem;
+  height: 20rem;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.front { transform: translateZ(4.2rem); }
+.back { transform: rotateY(180deg) translateZ(4.2rem); }
+.left { transform: rotateY(-90deg) translateZ(4.0rem); }
+.right { transform: rotateY(90deg) translateZ(4.0rem); }
+.top { transform: rotateX(90deg) translateY(-9.6rem); }
+.bottom { transform: rotateX(-90deg) translateY(9.6rem); }
+
+.cuboid-container {
+  animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
