@@ -1,6 +1,4 @@
 .cuboid {
-  background-color: black;
-  flex-grow: 1;
   min-height: 100vh;
   padding-bottom: 250px;
 }
@@ -20,7 +18,7 @@
   position: absolute;
   width: 8rem;
   height: 20rem;
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 0, 255);
   box-sizing: border-box;
   background: transparent;
 }
