@@ -19,7 +19,7 @@ const Void = () => {
       to="simulation" 
       spy={true} 
       smooth="easeInOutQuart" 
-      offset={0} 
+      offset={-60} 
       duration={50}
     >
       <div className="cuboid-container" ref={cuboidRef}>
