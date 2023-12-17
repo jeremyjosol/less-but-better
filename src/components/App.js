@@ -12,7 +12,7 @@ const App = () => {
       <Home />
       <About />
       <Sequence />
-      <div className='cuboid'>
+      <div className='cuboid' id='void'>
         <Void />
       </div>
     </div>

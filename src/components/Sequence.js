@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import './Sequence.css';
 import { FaChevronDown } from "react-icons/fa";
 
@@ -24,14 +24,6 @@ const Sequence = () => {
     };
   }, []);
 
-  const scrollToVoid = () => {
-    scroll.scrollTo(voidRef.current.offsetTop, {
-      duration: 500,
-      smooth: 'easeInOutQuart',
-      offset: -150,
-    });
-  };
-
   return (
     <div>
       <div className="sequence-container" id='sequence'>
@@ -44,13 +36,21 @@ const Sequence = () => {
         <h1 className='sequence7'>Sequence</h1>
         <div ref={voidRef} id="void" />
       </div>
-      <div className="sequence-down-icon" onClick={scrollToVoid}>
+      <Link
+        to="void"
+        spy={true}
+        smooth="easeInOutQuart"
+        offset={250}
+        duration={40}
+        className="sequence-down-icon"
+      >
         <FaChevronDown />
-      </div>
+      </Link>
     </div>
   );
 }
 
 export default Sequence;
+
 
 
