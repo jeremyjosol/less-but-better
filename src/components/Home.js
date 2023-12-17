@@ -18,10 +18,14 @@ const Home = () => {
         <div className="text-container">
           <h2 className='project-title'>Less, But Better.</h2>
           <p>
-            Welcome to exploration. This application was designed with the intention of observing and interacting with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <em>Unity</em>.
+            Welcome to our exhibition. This application was designed with intention of observation and interaction with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <a href='https://unity.com/'><em>Unity</em></a>.
           </p>
           <p className='p2'>
-            Inspired by the ethos of Dieter Rams, we present our findings with as little design as possible, allowing the essence of <strong className='strength2'>SPH</strong> to unfold organically.
+            Inspired by the ethos of Dieter Rams, we present our findings
+            <br />
+            with <em className='aldap'> as little design as possible</em>, allowing the essence of 
+            <br />
+            <strong className='strength2'>smoothed particle hydrodynamics</strong> to unfold organically.
           </p>
           <ScrollLink
             className="btn btn-primary learn-more"

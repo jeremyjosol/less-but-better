@@ -115,6 +115,7 @@
   flex: 1;
   max-width: 100%;
   margin-left: 200px;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 1220px) {
@@ -355,7 +356,7 @@
 }
 
 .strength {
-  font-weight: 600;
+  font-weight: 800;
   color: black;
   letter-spacing: -0.5px;
 }
@@ -385,4 +386,15 @@
 .p2 { 
     font-size: 16.5px;
     color: rgba(0, 0, 0, 0.86);
+    line-height: 1.2;
   }
+
+a {
+    text-decoration: none;
+}
+
+.aldap {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 1em;
+  color: black;
+}

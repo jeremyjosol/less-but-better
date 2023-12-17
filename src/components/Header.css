@@ -1,4 +1,5 @@
 .fixed-header {
+  font-family: 'Raleway', 'sans-serif';
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,7 +34,7 @@
 }
 
 .nav-link {
-  font-size: 13.6px;
+  font-size: 12.6px;
   color: rgba(50, 50, 50, 0.235);
   cursor: pointer;
 }
