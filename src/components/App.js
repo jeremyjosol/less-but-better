@@ -5,6 +5,7 @@ import About from './About';
 import Sequence from './Sequence';
 import Void from './Void';
 import Simulation from './Simulation';
+import DomainExpansion from './DomainExpansion';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Void />
       </div>
       <Simulation />
+      <DomainExpansion />
     </div>
   );
 };
