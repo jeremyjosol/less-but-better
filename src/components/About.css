@@ -1,14 +1,15 @@
 .about-container {
+  box-sizing: border-box;
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-self: flex-end; 
   margin: auto;
-  height: 100vh;
+  padding-bottom: -100px;
   position: relative;
   background: linear-gradient(135deg, #1a1a1a, #333); 
-  margin-bottom: 50px; 
 }
 
 .essence {
@@ -37,7 +38,6 @@
   top: 125px; 
   right: 200px;
   max-width: 500px;
-  margin-bottom: 150px;
   max-height: 150px;
   color: white;
 }
@@ -50,7 +50,6 @@
 
 .about-image-container {
   flex-shrink: 0;
-  margin-bottom: 250px;
 }
 
 .about-image-container img {
