@@ -1,5 +1,7 @@
 .simulation-container {
   background-color: black;
+  border-left: solid white 30px;
+  border-right: solid white 30px;
 }
 
 .video-container {
