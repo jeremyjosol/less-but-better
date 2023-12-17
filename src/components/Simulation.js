@@ -21,7 +21,7 @@ const Simulation = () => {
   ];
 
 return (
-  <div className='simulation-container'>
+  <div className='simulation-container' id='simulation'>
     <Slider {...settings}>
         {videos.map((video) => (
           <div key={video.id}>
