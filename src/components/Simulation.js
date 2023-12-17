@@ -9,6 +9,9 @@ import simulationFive from '../mp4/simulationSmoothedOne.mp4';
 import simulationSix from '../mp4/simulationSmoothedTwo.mov';
 import simulationSeven from '../mp4/simulationInteractOne.mov';
 import simulationEight from '../mp4/simulationInteractTwo.mov';
+import simulationNine from '../mp4/simulationInteractThree.mov';
+import simulationTen from '../mp4/simulationInteractFour.mov';
+import simulationEleven from '../mp4/simulationInteractFive.mov';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from 'react-icons/md';
@@ -42,6 +45,9 @@ const kaizenVideos = [
   { id: 2, src: simulationSix, title: '' },
   { id: 3, src: simulationSeven, title: ''},
   { id: 4, src: simulationEight, title: ''},
+  { id: 5, src: simulationNine, title: ''},
+  { id: 6, src: simulationTen, title: ''},
+  { id: 7, src: simulationEleven, title: ''},
 ];
 
 const Simulation = () => {
