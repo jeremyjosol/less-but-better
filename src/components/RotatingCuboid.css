@@ -1,6 +1,8 @@
 .cuboid {
   background-color: black;
+  flex-grow: 1;
   min-height: 100vh;
+  padding-bottom: 250px;
 }
 
 .cuboid-container {
