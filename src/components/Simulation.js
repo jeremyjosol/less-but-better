@@ -4,6 +4,7 @@ import './Simulation.css';
 import simulationOne from '../mp4/simulationOne.mp4';
 import simulationTwo from '../mp4/simulationTwo.mp4';
 import simulationThree from '../mp4/simulationThree.mp4';
+import simulationFour from '../mp4/simulationFour.mp4';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from "react-icons/md";
@@ -18,9 +19,10 @@ const settings = {
 
 const Simulation = () => {
   const videos = [
-    { id: 1, src: simulationOne, title: '' },
+    { id: 1, src: simulationOne, title: ''},
     { id: 2, src: simulationTwo, title: ''},
     { id: 3, src: simulationThree, title: ''},
+    { id: 4, src: simulationFour, title: ''},
   ];
 
 return (
