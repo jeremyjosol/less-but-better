@@ -15,7 +15,13 @@ const Void = () => {
   }, []);
 
   return (
-    <Link to="simulation" spy={true} smooth="easeInOutQuart" offset={0} duration={50}>
+    <Link 
+      to="simulation" 
+      spy={true} 
+      smooth="easeInOutQuart" 
+      offset={0} 
+      duration={50}
+    >
       <div className="cuboid-container" ref={cuboidRef}>
         <div className="face front"></div>
         <div className="face back"></div>
