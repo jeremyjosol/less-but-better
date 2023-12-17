@@ -8,7 +8,6 @@
 
 .navbar {
   position: relative;
-  margin-left: 10px;
 }
 
 .navbar::after {
