@@ -1,12 +1,13 @@
 .home-container {
   min-height: 100vh;
   margin-top: 100px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .project-title {
   font-size: 5.0em;
   letter-spacing: -3px;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 1430px) {
@@ -391,6 +392,7 @@
 
 a {
     text-decoration: none;
+    color: rgb(171, 130, 171);
 }
 
 .aldap {
