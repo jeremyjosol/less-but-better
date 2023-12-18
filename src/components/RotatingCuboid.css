@@ -33,6 +33,11 @@
 
 .cuboid-container {
   animation: spin 8s infinite linear;
+  animation-play-state: running;
+}
+
+.cuboid-container:hover {
+  animation-play-state: paused;
 }
 
 @keyframes spin {
