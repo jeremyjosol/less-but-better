@@ -2,6 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import './DomainExpansion.css';
 import { FaChevronDown } from 'react-icons/fa';
+import { MdOutlineLensBlur } from "react-icons/md";
+import { GiHolosphere } from "react-icons/gi";
+
 
 const DomainExpansion = () => {
   const voidRef = useRef(null);
@@ -30,11 +33,8 @@ const DomainExpansion = () => {
 
   return (
     <div>
-      <div className={`domain-container ${isVisible ? 'domain-visible' : ''}`} id="domain">
-        <h1 className="domain-header">DOMAIN EXPANSION</h1>
         <div ref={voidRef} id="void" />
-      </div>
-      <Link
+        <Link
         to="void"
         spy={true}
         smooth="easeInOutQuart"
@@ -42,8 +42,11 @@ const DomainExpansion = () => {
         duration={40}
         className="domain-down-icon"
       >
-        <FaChevronDown />
+        <GiHolosphere />
       </Link>
+      <div className={`domain-container ${isVisible ? 'domain-visible' : ''}`} id="domain">
+        <h1 className="domain-header">DOMAIN EXPANSION</h1>
+      </div>
     </div>
   );
 };
