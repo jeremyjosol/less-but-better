@@ -15,7 +15,7 @@ import simulationEleven from '../mp4/simulationInteractFive.mov';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from 'react-icons/md';
-import { MdOutlineLensBlur } from "react-icons/md";
+import { GiChaingun } from "react-icons/gi";
 
 const prototypeSettings = {
   dots: true,
@@ -73,7 +73,7 @@ const Simulation = () => {
 
       <div className="slider-container">
         <h1 className="prototype">
-          <MdOutlineLensBlur className="prototype-icon" /> Kaizen
+          <GiChaingun className="prototype-icon" /> Kaizen
         </h1>
         <Slider {...kaizenSettings}>
           {kaizenVideos.map((video) => (
