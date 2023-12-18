@@ -1,13 +1,13 @@
 .simulation-container {
-  background-color: black;
-  border-left: solid white 30px;
-  border-right: solid white 30px;
+  /* background: linear-gradient(135deg, #4d7fffbe, #67d2e4, rgba(148, 148, 255, 0.626));  */
+  /* border-left: solid black 30px; */
+  /* border-right: solid black 30px; */
 }
 
 .slider-container {
   padding-bottom: 10px;
-  border-top: solid white 5px;
-  border-bottom: solid white 50px;
+  /* border-top: solid white 5px; */
+  /* border-bottom: solid white 50px; */
 }
 
 .slick-slider .slick-dots {
@@ -68,8 +68,11 @@ video {
 
 .prototype {
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  color: white;
+  margin: auto;
+  font-weight: 100;
+  background: linear-gradient(135deg, rgba(77, 255, 0, 0.745), rgb(0, 217, 255), rgb(148, 148, 255)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
   margin-left: 15px;
 }
 
