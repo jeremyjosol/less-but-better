@@ -6,8 +6,8 @@
 
 .slider-container {
   padding-bottom: 10px;
-  /* border-top: solid white 5px; */
-  /* border-bottom: solid white 50px; */
+  border-top: solid white 5px;
+  border-bottom: solid white 50px;
 }
 
 .slick-slider .slick-dots {
@@ -70,12 +70,19 @@ video {
   font-family: 'Raleway', sans-serif;
   margin: auto;
   font-weight: 100;
-  background: linear-gradient(135deg, rgba(77, 255, 0, 0.745), rgb(0, 217, 255), rgb(148, 148, 255)); 
+  font-size: 36px;
+  background: linear-gradient(to right, rgba(0, 123, 255, 0.46), blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   margin-left: 15px;
 }
 
+@media screen and (max-width: 750px) {
+  .prototype {
+    text-align: center;
+  }
+}
+
 .prototype-icon {
-  font-size: 24px;
+  font-size: 20px;
 }

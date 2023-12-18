@@ -16,7 +16,7 @@ const Home = () => {
     <div className="home-container" id="home">
       <div className="hero-layout">
         <div className="text-container">
-          <h2 className='project-title'>Less, But Better.</h2>
+          <h2 className='project-title'>Less, But Better</h2>
           <p>
             Welcome to our exhibition. This application was designed with intention of observation and interaction with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <a href='https://unity.com/'><em>Unity</em></a>.
           </p>
@@ -32,7 +32,7 @@ const Home = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-55}
+            offset={0}
             duration={50}
             onClick={scrollToAbout}
           >

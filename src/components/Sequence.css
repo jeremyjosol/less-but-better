@@ -1,7 +1,8 @@
 .sequence-container {
   text-align: center;
   margin: auto;
-  padding-top: 100px;
+  margin-top: 50px;
+  padding-top: 125px;
   min-height: 100vh;
   padding-bottom: 50px;
 }

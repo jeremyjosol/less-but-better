@@ -57,8 +57,9 @@ const About = () => {
                 activeClass="active"
                 spy={true}
                 smooth="easeInOutQuart"
-                offset={-30}
-                duration={50}className="down-icon">
+                offset={0}
+                duration={50}
+                className="down-icon">
           <FaChevronDown />
         </Link>
       </div>
