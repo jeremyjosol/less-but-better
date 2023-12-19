@@ -2,18 +2,17 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import './DomainExpansion.css';
 import { FaChevronDown } from 'react-icons/fa';
-import { MdOutlineLensBlur } from "react-icons/md";
 import { GiHolosphere } from "react-icons/gi";
 
 
 const DomainExpansion = () => {
-  const voidRef = useRef(null);
+  const infiniteVoidRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (voidRef.current) {
-        const rect = voidRef.current.getBoundingClientRect();
+      if (infiniteVoidRef.current) {
+        const rect = infiniteVoidRef.current.getBoundingClientRect();
         const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
 
         if (isInViewport && !isVisible) {
@@ -33,12 +32,12 @@ const DomainExpansion = () => {
 
   return (
     <div>
-        <div ref={voidRef} id="void" />
-        <Link
-        to="void"
+      <div ref={infiniteVoidRef} id="infinite-void" />
+      <Link
+        to="infinite-void"
         spy={true}
         smooth="easeInOutQuart"
-        offset={255}
+        offset={750}
         duration={40}
         className="domain-down-icon"
       >
