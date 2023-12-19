@@ -20,7 +20,9 @@ const App = () => {
       </div>
       <Simulation />
       <DomainExpansion />
-      <InfiniteVoid id='infinite-void' />
+      <div className='infinite-void-container' id='infinite-void'>
+      <InfiniteVoid />
+      </div>
     </div>
   );
 };
