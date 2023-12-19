@@ -21,6 +21,13 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 650px) {
+  .domain-header {
+    font-size: 4.0em;
+    letter-spacing: 10px;
+  }
+}
+
 .domain-visible .domain-header {
   opacity: 1;
   transform: translateY(0);
