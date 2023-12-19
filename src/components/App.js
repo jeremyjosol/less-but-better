@@ -6,6 +6,7 @@ import Sequence from './Sequence';
 import Void from './Void';
 import Simulation from './Simulation';
 import DomainExpansion from './DomainExpansion';
+import InfiniteVoid from './InfiniteVoid';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       </div>
       <Simulation />
       <DomainExpansion />
+      <InfiniteVoid />
     </div>
   );
 };

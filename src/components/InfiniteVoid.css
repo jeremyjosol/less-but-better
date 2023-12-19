@@ -1,0 +1,21 @@
+.infinite-void {
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  font-weight: 100;
+  font-size: 36px;
+  background: linear-gradient(to right, rgba(0, 123, 255, 0.46), blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;  
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .infinite-void {
+    text-align: center;
+  }
+}
+
+.infinite-void-icon {
+  font-size: 20px;
+}
