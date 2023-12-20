@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './InfiniteVoid.css';  
-import simulationOne from '../mp4/simulationOptimizedOne.mp4';
+import movie from '../mp4/InfiniteVoid.mp4';
 import { GiGalaxy } from "react-icons/gi";
 
 const infiniteVoidSettings = {
@@ -22,7 +22,7 @@ const InfiniteVoid = () => {
         <div>
           <div className="video-container">
             <video width="500px" height="240px" controls>
-              <source src={simulationOne} type="video/mp4" />
+              <source src={movie} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
