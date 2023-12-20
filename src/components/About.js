@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import techParticles from '../img/TechParticles.jpg';
 import './About.css';
 import { FaChevronDown } from 'react-icons/fa';
+import { FaGithub } from "react-icons/fa";
 
 const About = () => {
   const titleRef = useRef(null);
@@ -51,14 +52,21 @@ const About = () => {
             dynamics, astrophysics, and computer graphics, providing a versatile
             approach to model complex fluid behaviors.
           </p>
-
-          <a
+        <a
           href="https://matthias-research.github.io/pages/publications/sca03.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="research-link"
         >
           RESEARCH
+        </a>
+        <a
+          href="https://matthias-research.github.io/pages/publications/sca03.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="research-link"
+        >
+          <FaGithub /> DEVELOPMENT
         </a>
         </div>
         <Link

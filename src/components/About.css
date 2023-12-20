@@ -15,6 +15,7 @@
 .essence {
   font-family: 'Lato', sans-serif;
   font-size: 6.5em;
+  letter-spacing: -5px;
   background: linear-gradient(to left, #4d7fffbe, #67d2e4, rgba(148, 148, 255, 0.626)); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -162,17 +163,18 @@
   background: rgba(255, 255, 255, 0.1);
   display: inline-block;
   margin-top: 50px;
+  margin-left: 5px;
   padding: 10px 20px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14.5px;
   transition: background 0.3s, border 0.3s, box-shadow 0.3s;
 }
 
 .research-link:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  color: rgb(0, 187, 255);
 }
