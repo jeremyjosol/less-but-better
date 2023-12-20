@@ -1,14 +1,19 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './Simulation.css';
-import prototypeOne from '../img/GizmoPrototype.jpg';
-import simulationFive from '../mp4/simulationSmoothedOne.mp4';
-import simulationSix from '../mp4/simulationSmoothedTwo.mov';
-import simulationSeven from '../mp4/simulationInteractOne.mov';
-import simulationEight from '../mp4/simulationInteractTwo.mov';
-import simulationNine from '../mp4/simulationInteractThree.mov';
-import simulationTen from '../mp4/simulationInteractFour.mov';
-import simulationEleven from '../mp4/simulationInteractFive.mov';
+import modelOne from '../img/GizmoPrototype.jpg';
+import modelTwo from '../img/Grid.jpg';
+import prototypeOne from '../mp4/simulationOne.mp4';
+import prototypeTwo from '../mp4/simulationTwo.mp4';
+import prototypeThree from '../mp4/simulationThree.mp4';
+import prototypeFour from '../mp4/simulationFour.mp4';
+import kaizenOne from '../mp4/simulationSmoothedOne.mp4';
+import kaizenTwo from '../mp4/simulationSmoothedTwo.mov';
+import kaizenThree from '../mp4/simulationInteractOne.mov';
+import kaizenFour from '../mp4/simulationInteractTwo.mov';
+import kaizenFive from '../mp4/simulationInteractThree.mov';
+import kaizenSix from '../mp4/simulationInteractFour.mov';
+import kaizenSeven from '../mp4/simulationInteractFive.mov';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from 'react-icons/md';
@@ -39,31 +44,25 @@ const kaizenSettings = {
 };
 
 const modelMedia = [
-  { id: 1, type: 'photo', src: prototypeOne, title: 'Gizmo Prototype' },
-  { id: 2, type: 'photo', src: prototypeOne, title: 'Gizmo Prototype' },
-  { id: 3, type: 'photo', src: prototypeOne, title: 'Gizmo Prototype' },
-  { id: 4, type: 'photo', src: prototypeOne, title: 'Gizmo Prototype' },
-  { id: 5, type: 'photo', src: prototypeOne, title: 'Gizmo Prototype' },
+  { id: 1, type: 'photo', src: modelOne, title: 'Gizmo' },
+  { id: 2, type: 'photo', src: modelTwo, title: 'Grid' },
 ];
 
 const prototypeVideos = [
-  { id: 1, src: simulationFive, title: 'Simulation Five' },
-  { id: 2, src: simulationSix, title: 'Simulation Six' },
-  { id: 3, src: simulationSeven, title: 'Simulation Seven' },
-  { id: 4, src: simulationEight, title: 'Simulation Eight' },
-  { id: 5, src: simulationNine, title: 'Simulation Nine' },
-  { id: 6, src: simulationTen, title: 'Simulation Ten' },
-  { id: 7, src: simulationEleven, title: 'Simulation Eleven' },
+  { id: 1, src: prototypeOne, title: '' },
+  { id: 2, src: prototypeTwo, title: '' },
+  { id: 3, src: prototypeThree, title: '' },
+  { id: 4, src: prototypeFour, title: '' },
 ];
 
 const kaizenVideos = [
-  { id: 1, src: simulationFive, title: 'Simulation Five' },
-  { id: 2, src: simulationSix, title: 'Simulation Six' },
-  { id: 3, src: simulationSeven, title: 'Simulation Seven' },
-  { id: 4, src: simulationEight, title: 'Simulation Eight' },
-  { id: 5, src: simulationNine, title: 'Simulation Nine' },
-  { id: 6, src: simulationTen, title: 'Simulation Ten' },
-  { id: 7, src: simulationEleven, title: 'Simulation Eleven' },
+  { id: 1, src: kaizenOne, title: '' },
+  { id: 2, src: kaizenTwo, title: '' },
+  { id: 3, src: kaizenThree, title: '' },
+  { id: 4, src: kaizenFour, title: '' },
+  { id: 5, src: kaizenFive, title: '' },
+  { id: 6, src: kaizenSix, title: '' },
+  { id: 7, src: kaizenSeven, title: '' },
 ];
 
 const Simulation = () => {
@@ -78,7 +77,7 @@ const Simulation = () => {
             <div key={media.id}>
               <div className={media.type === 'photo' ? 'photo-container' : 'video-container'}>
                 {media.type === 'photo' ? (
-                  <img width="100%" src={media.src} alt={media.title} />
+                  <img src={media.src} alt={media.title} />
                 ) : (
                   <video width="500px" height="240px" controls>
                     <source src={media.src} type="video/mp4" />
