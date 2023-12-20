@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import techParticles from '../img/TechParticles.jpg';
 import './About.css';
-import { FaChevronDown } from "react-icons/fa";
+import { FaChevronDown } from 'react-icons/fa';
 
 const About = () => {
   const titleRef = useRef(null);
@@ -39,31 +39,42 @@ const About = () => {
             Essence
           </h2>
           <p>
-            <span className='sph'>SMOOTHED PARTICLE HYDRODYNAMICS</span>
+            <span className="sph">SMOOTHED PARTICLE HYDRODYNAMICS</span>
             <br />
             <br />
-             A computational method used for
-            simulating fluid flows. It represents fluid as a set of particles and
-            applies smoothed interpolation functions to calculate fluid properties at
-            each particle location.
+            A computational method used for simulating fluid flows. It represents fluid
+            as a set of particles and applies smoothed interpolation functions to
+            calculate fluid properties at each particle location.
           </p>
           <p>
             SPH simulations are widely used in various fields, including fluid
             dynamics, astrophysics, and computer graphics, providing a versatile
             approach to model complex fluid behaviors.
           </p>
+
+          <a
+          href="https://matthias-research.github.io/pages/publications/sca03.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="research-link"
+        >
+          RESEARCH
+        </a>
         </div>
-        <Link to="sequence" 
-                activeClass="active"
-                spy={true}
-                smooth="easeInOutQuart"
-                offset={0}
-                duration={50}
-                className="down-icon">
+        <Link
+          to="sequence"
+          activeClass="active"
+          spy={true}
+          smooth="easeInOutQuart"
+          offset={0}
+          duration={50}
+          className="down-icon"
+        >
           <FaChevronDown />
         </Link>
       </div>
     </div>
+    
   );
 };
 
