@@ -46,7 +46,7 @@
   text-align: center;
   background: linear-gradient(45deg, #de3bff, #ea07ff);
   -webkit-background-clip: text;
-  filter: drop-shadow(0 0 10px rgba(38, 215, 255, 0.8));
+  filter: drop-shadow(0 0 10px rgba(38, 215, 255, 0.846));
 }
 
 

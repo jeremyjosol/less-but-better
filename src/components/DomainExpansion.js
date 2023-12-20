@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import './DomainExpansion.css';
-import { FaChevronDown } from 'react-icons/fa';
 import { GiHolosphere } from "react-icons/gi";
 
 
@@ -37,8 +36,8 @@ const DomainExpansion = () => {
         to="infinite-void"
         spy={true}
         smooth="easeInOutQuart"
-        offset={750}
-        duration={40}
+        offset={1500}
+        duration={10}
         className="domain-down-icon"
       >
         <GiHolosphere />
