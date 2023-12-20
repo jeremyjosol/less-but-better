@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import './Sequence.css';
 import { FaChevronDown } from 'react-icons/fa';
+import research from './../img/Research.jpg';
 
 const Sequence = () => {
   const voidRef = useRef(null);
@@ -40,11 +41,14 @@ const Sequence = () => {
         <h1 className="sequence7">Sequence</h1>
         <div ref={voidRef} id="void" />
       </div>
+      <div className='research-photo-container'>
+        <img className='research-photo' src={research} alt='Research from Interactive Applications.'></img>
+      </div>
       <Link
         to="void"
         spy={true}
         smooth="easeInOutQuart"
-        offset={255}
+        offset={850}
         duration={40}
         className="sequence-down-icon"
       >

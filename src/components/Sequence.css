@@ -4,7 +4,6 @@
   margin-top: 50px;
   padding-top: 125px;
   min-height: 100vh;
-  padding-bottom: 50px;
 }
 
 .sequence1, 
@@ -15,6 +14,7 @@
 .sequence6,
 .sequence7  {
   font-size: 5em;
+  font-weight: 100;
   line-height: 0.45;
   margin-top: 25px;
   opacity: 0;
@@ -33,6 +33,7 @@
 }
 
 .sequence1 {
+  font-weight: 200;
   color: black;
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
@@ -85,4 +86,26 @@
 .sequence-down-icon:hover {
   color: #FFF;
   background-color: rgba(0, 0, 0, 0.131);
+}
+
+.research-photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: auto; 
+  margin-top: 300px;
+  margin-bottom: 350px;
+}
+
+.research-photo {
+  width: 750px; 
+  height: 750px; 
+}
+
+@media screen and (max-width: 550px) {
+  .research-photo {
+    width: 450px; 
+    height: 450px
+  }
 }
