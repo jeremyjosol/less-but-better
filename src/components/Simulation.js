@@ -12,6 +12,7 @@ import simulationEight from '../mp4/simulationInteractTwo.mov';
 import simulationNine from '../mp4/simulationInteractThree.mov';
 import simulationTen from '../mp4/simulationInteractFour.mov';
 import simulationEleven from '../mp4/simulationInteractFive.mov';
+import prototypeOne from '../img/GizmoPrototype.jpg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from 'react-icons/md';
@@ -33,13 +34,13 @@ const kaizenSettings = {
   slidesToScroll: 1,
 };
 
-const prototypeVideos = [
-  { id: 1, src: simulationOne, title: '' },
-  { id: 2, src: simulationTwo, title: '' },
-  { id: 3, src: simulationThree, title: '' },
-  { id: 4, src: simulationFour, title: '' },
+const prototypeMedia = [
+  { id: 1, type: 'photo', src: prototypeOne, title: 'Photo Title' },
+  { id: 2, type: 'video', src: simulationOne, title: 'Video Title' },
+  { id: 3, type: 'video', src: simulationTwo, title: 'Video Title' },
+  { id: 4, type: 'photo', src: simulationThree, title: 'Photo Title' },
+  { id: 5, type: 'video', src: simulationFour, title: 'Video Title' },
 ];
-
 const kaizenVideos = [
   { id: 1, src: simulationFive, title: '' },
   { id: 2, src: simulationSix, title: '' },
@@ -58,13 +59,17 @@ const Simulation = () => {
           <MdHub className="prototype-icon" /> Prototype
         </h1>
         <Slider {...prototypeSettings}>
-          {prototypeVideos.map((video) => (
-            <div key={video.id}>
-              <div className="video-container">
-                <video width="500px" height="240px" controls>
-                  <source src={video.src} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+          {prototypeMedia.map((media) => (
+            <div key={media.id}>
+              <div className={media.type === 'photo' ? 'photo-container' : 'video-container'}>
+                {media.type === 'photo' ? (
+                  <img src={media.src} alt={media.title} />
+                ) : (
+                  <video width="500px" height="240px" controls>
+                    <source src={media.src} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                )}
               </div>
             </div>
           ))}
