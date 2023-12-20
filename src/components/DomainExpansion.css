@@ -41,14 +41,17 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 250px;
-  color: rgba(255, 255, 255, 0.78);
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
+  background: linear-gradient(45deg, #de3bff, #ea07ff);
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 0 10px rgba(38, 215, 255, 0.8));
 }
+
 
 .domain-down-icon:hover {
   color: #fff;
-  background: rgba(0, 0, 0, 0.131);
+  background: none;
   animation: none;
 }
