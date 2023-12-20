@@ -75,7 +75,7 @@
   font-size: 15px;
   color: #dddddd;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.112);
+  background-color: rgba(199, 199, 199, 0.112);
   padding: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -99,8 +99,8 @@
 }
 
 .research-photo {
-  width: 750px; 
-  height: 750px; 
+  width: 680px; 
+  height: 620px; 
 }
 
 @media screen and (max-width: 550px) {
