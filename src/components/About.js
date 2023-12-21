@@ -30,17 +30,17 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about-container" id="about">
-      <div className="about-hero-layout">
-        <div className="about-image-container">
-          <img src={techParticles} alt="Particles" />
+    <div className='about-container' id='about'>
+      <div className='about-hero-layout'>
+        <div className='about-image-container'>
+          <img src={techParticles} alt='Particles' />
         </div>
-        <div className="about-text-container">
-          <h2 ref={titleRef} className="essence fade-in">
+        <div className='about-text-container'>
+          <h2 ref={titleRef} className='essence fade-in'>
             Essence
           </h2>
           <p>
-            <span className="sph">SMOOTHED PARTICLE HYDRODYNAMICS</span>
+            <span className='sph'>SMOOTHED PARTICLE HYDRODYNAMICS</span>
             <br />
             <br />
             A computational method used for simulating fluid flows. It represents fluid
@@ -53,30 +53,30 @@ const About = () => {
             approach to model complex fluid behaviors.
           </p>
         <a
-          href="https://matthias-research.github.io/pages/publications/sca03.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="research-link"
+          href='https://matthias-research.github.io/pages/publications/sca03.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='research-link'
         >
           RESEARCH
         </a>
         <a
-          href="https://github.com/jeremyjosol/less-but-better/tree/main/Assets"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="development-link"
+          href='https://github.com/jeremyjosol/less-but-better/tree/main/Assets'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='development-link'
         >
           <FaGithub /> DEVELOPMENT
         </a>
         </div>
         <Link
-          to="sequence"
-          activeClass="active"
+          to='sequence'
+          activeClass='active'
           spy={true}
-          smooth="easeInOutQuart"
+          smooth='easeInOutQuart'
           offset={0}
           duration={50}
-          className="down-icon"
+          className='down-icon'
         >
           <FaChevronDown />
         </Link>

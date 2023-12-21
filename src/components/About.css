@@ -1,13 +1,12 @@
 .about-container {
-  box-sizing: border-box;
   min-height: 100vh;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-self: flex-end; 
   margin: auto;
-  padding-bottom: -100px;
   position: relative;
   background: linear-gradient(135deg, #1a1a1a, #333); 
 }

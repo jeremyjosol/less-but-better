@@ -31,26 +31,26 @@ const Sequence = () => {
 
   return (
     <div>
-      <div className={`sequence-container ${isVisible ? 'sequence-visible' : ''}`} id="sequence">
-        <h1 className="sequence1">Sequence</h1>
-        <h1 className="sequence2">Sequence</h1>
-        <h1 className="sequence3">Sequence</h1>
-        <h1 className="sequence4">Sequence</h1>
-        <h1 className="sequence5">Sequence</h1>
-        <h1 className="sequence6">Sequence</h1>
-        <h1 className="sequence7">Sequence</h1>
-        <div ref={voidRef} id="void" />
+      <div className={`sequence-container ${isVisible ? 'sequence-visible' : ''}`} id='sequence'>
+        <h1 className='sequence1'>Sequence</h1>
+        <h1 className='sequence2'>Sequence</h1>
+        <h1 className='sequence3'>Sequence</h1>
+        <h1 className='sequence4'>Sequence</h1>
+        <h1 className='sequence5'>Sequence</h1>
+        <h1 className='sequence6'>Sequence</h1>
+        <h1 className='sequence7'>Sequence</h1>
+        <div ref={voidRef} id='void' />
       </div>
       <div className='research-photo-container'>
         <img className='research-photo' src={research} alt='Research from Interactive Applications.'></img>
       </div>
       <Link
-        to="void"
+        to='void'
         spy={true}
-        smooth="easeInOutQuart"
+        smooth='easeInOutQuart'
         offset={920}
         duration={40}
-        className="sequence-down-icon"
+        className='sequence-down-icon'
       >
         <FaChevronDown />
       </Link>

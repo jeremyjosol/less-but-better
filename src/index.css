@@ -6,7 +6,8 @@ body {
   font-family: 'Arial', sans-serif; 
   position: relative;
   overflow-x: hidden;
-}
+  }
+
 
 body::before {
   content: '';

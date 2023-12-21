@@ -68,11 +68,8 @@ const kaizenVideos = [
 
 const Simulation = () => {
   return (
-    <div className="simulation-container" id="simulation">
-      <div className="slider-container">
-        <h1 className="prototype">
-          <GiAbstract069 className="prototype-icon" /> MODEL
-        </h1>
+    <div className='simulation-container' id='simulation'>
+      <div className='slider-container'>
         <Slider {...modelSettings}>
           {modelMedia.map((media) => (
             <div key={media.id}>
@@ -80,49 +77,51 @@ const Simulation = () => {
                 {media.type === 'photo' ? (
                   <img src={media.src} alt={media.title} />
                 ) : (
-                  <video width="500px" height="240px" controls>
-                    <source src={media.src} type="video/mp4" />
+                  <video width='500px' height='240px' controls>
+                    <source src={media.src} type='video/mp4' />
                     Your browser does not support the video tag.
                   </video>
                 )}
               </div>
+              <h1 className='prototype'>
+                <GiAbstract069 className='prototype-icon' /> MODEL
+              </h1>
             </div>
           ))}
         </Slider>
       </div>
 
-
-      <div className="slider-container">
-        <h1 className="prototype">
-          <MdHub className="prototype-icon" /> PROTOTYPE
-        </h1>
+      <div className='slider-container'>
         <Slider {...prototypeSettings}>
           {prototypeVideos.map((video) => (
             <div key={video.id}>
-              <div className="video-container">
-                <video width="500px" height="240px" controls>
-                  <source src={video.src} type="video/mp4" />
+              <div className='video-container'>
+                <video width='500px' height='240px' controls>
+                  <source src={video.src} type='video/mp4' />
                   Your browser does not support the video tag.
                 </video>
               </div>
+              <h1 className='prototype'>
+                <MdHub className='prototype-icon' /> PROTOTYPE
+              </h1>
             </div>
           ))}
         </Slider>
       </div>
 
-      <div className="slider-container">
-        <h1 className="prototype">
-          <GiChaingun className="prototype-icon" /> KAIZEN
-        </h1>
+      <div className='slider-container'>
         <Slider {...kaizenSettings}>
           {kaizenVideos.map((video) => (
             <div key={video.id}>
-              <div className="video-container">
-                <video width="500px" height="240px" controls>
-                  <source src={video.src} type="video/mp4" />
+              <div className='video-container'>
+                <video width='500px' height='240px' controls>
+                  <source src={video.src} type='video/mp4' />
                   Your browser does not support the video tag.
                 </video>
               </div>
+              <h1 className='prototype'>
+                <GiChaingun className='prototype-icon' /> KAIZEN
+              </h1>
             </div>
           ))}
         </Slider>

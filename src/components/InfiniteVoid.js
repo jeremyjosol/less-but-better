@@ -13,12 +13,12 @@ const infiniteVoidSettings = {
 
 const InfiniteVoid = () => {
   return (
-    <div className="slider-container">
+    <div className='slider-container'>
       <Slider {...infiniteVoidSettings}>
         <div>
-          <div className="video-container">
-            <video width="500px" height="240px" controls>
-              <source src={movie} type="video/mp4" />
+          <div className='video-container'>
+            <video width='500px' height='240px' controls>
+              <source src={movie} type='video/mp4' />
               Your browser does not support the video tag.
             </video>
           </div>

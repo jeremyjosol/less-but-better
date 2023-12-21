@@ -18,18 +18,18 @@ const Header = () => {
   }, []); 
 
   return (
-    <header className="fixed-header">
-      <Navbar expand="sm" bg="light" variant="light">        
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+    <header className='fixed-header'>
+      <Navbar expand='sm' bg='light' variant='light'>        
+      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Collapse id='responsive-navbar-nav'>
+          <Nav className='ml-auto'>
             <Nav.Item>
               <ScrollLink
-                className="nav-link"
-                to="home"
-                activeClass="active"
+                className='nav-link'
+                to='home'
+                activeClass='active'
                 spy={true}
-                smooth="easeInOutQuart"
+                smooth='easeInOutQuart'
                 offset={-200}
                 duration={50}
                 onClick={(event) => {
@@ -42,11 +42,11 @@ const Header = () => {
             </Nav.Item>
             <Nav.Item>
               <ScrollLink
-                className="nav-link"
-                to="about"
-                activeClass="active"
+                className='nav-link'
+                to='about'
+                activeClass='active'
                 spy={true}
-                smooth="easeInOutQuart"
+                smooth='easeInOutQuart'
                 offset={0}
                 duration={50}
                 onClick={(event) => {
@@ -59,11 +59,11 @@ const Header = () => {
             </Nav.Item>
             <Nav.Item>
               <ScrollLink
-                className="nav-link"
-                to="sequence"
-                activeClass="active"
+                className='nav-link'
+                to='sequence'
+                activeClass='active'
                 spy={true}
-                smooth="easeInOutQuart"
+                smooth='easeInOutQuart'
                 offset={0}
                 duration={50}
                 onClick={(event) => {

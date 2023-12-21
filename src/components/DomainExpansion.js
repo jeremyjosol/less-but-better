@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import './DomainExpansion.css';
-import { GiHolosphere } from "react-icons/gi";
+import { GiHolosphere } from 'react-icons/gi';
 
 
 const DomainExpansion = () => {
@@ -31,19 +31,19 @@ const DomainExpansion = () => {
 
   return (
     <div>
-      <div ref={infiniteVoidRef} id="infinite-void" />
+      <div ref={infiniteVoidRef} id='infinite-void' />
       <Link
-        to="infinite-void"
+        to='infinite-void'
         spy={true}
-        smooth="easeInOutQuart"
+        smooth='easeInOutQuart'
         offset={1500}
         duration={10}
-        className="domain-down-icon"
+        className='domain-down-icon'
       >
         <GiHolosphere />
       </Link>
-      <div className={`domain-container ${isVisible ? 'domain-visible' : ''}`} id="domain">
-        <h1 className="domain-header">DOMAIN EXPANSION</h1>
+      <div className={`domain-container ${isVisible ? 'domain-visible' : ''}`} id='domain'>
+        <h1 className='domain-header'>DOMAIN EXPANSION</h1>
       </div>
     </div>
   );
