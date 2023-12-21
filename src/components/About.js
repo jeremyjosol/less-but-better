@@ -61,7 +61,7 @@ const About = () => {
           RESEARCH
         </a>
         <a
-          href="https://matthias-research.github.io/pages/publications/sca03.pdf"
+          href="https://github.com/jeremyjosol/less-but-better/tree/main/Assets"
           target="_blank"
           rel="noopener noreferrer"
           className="development-link"
