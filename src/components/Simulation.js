@@ -18,9 +18,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from 'react-icons/md';
 import { GiChaingun } from 'react-icons/gi';
-import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
-
-
+import { GiAbstract069 } from "react-icons/gi";
 
 const modelSettings = {
   dots: true,
@@ -73,7 +71,7 @@ const Simulation = () => {
     <div className="simulation-container" id="simulation">
       <div className="slider-container">
         <h1 className="prototype">
-          <MdHub className="prototype-icon" /> MODEL
+          <GiAbstract069 className="prototype-icon" /> MODEL
         </h1>
         <Slider {...modelSettings}>
           {modelMedia.map((media) => (
