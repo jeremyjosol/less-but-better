@@ -18,6 +18,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MdHub } from 'react-icons/md';
 import { GiChaingun } from 'react-icons/gi';
+import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
+
+
 
 const modelSettings = {
   dots: true,
@@ -70,7 +73,7 @@ const Simulation = () => {
     <div className="simulation-container" id="simulation">
       <div className="slider-container">
         <h1 className="prototype">
-          <MdHub className="prototype-icon" /> Model
+          <MdHub className="prototype-icon" /> MODEL
         </h1>
         <Slider {...modelSettings}>
           {modelMedia.map((media) => (
@@ -93,7 +96,7 @@ const Simulation = () => {
 
       <div className="slider-container">
         <h1 className="prototype">
-          <MdHub className="prototype-icon" /> Prototype
+          <MdHub className="prototype-icon" /> PROTOTYPE
         </h1>
         <Slider {...prototypeSettings}>
           {prototypeVideos.map((video) => (
@@ -111,7 +114,7 @@ const Simulation = () => {
 
       <div className="slider-container">
         <h1 className="prototype">
-          <GiChaingun className="prototype-icon" /> Kaizen
+          <GiChaingun className="prototype-icon" /> KAIZEN
         </h1>
         <Slider {...kaizenSettings}>
           {kaizenVideos.map((video) => (
