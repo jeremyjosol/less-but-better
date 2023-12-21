@@ -2,6 +2,7 @@ import React from 'react';
 import particles from '../img/Particles.jpg';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import './Home.css';
+import { FaUnity } from "react-icons/fa6";
 
 const Home = () => {
   const scrollToAbout = () => {
@@ -18,7 +19,7 @@ const Home = () => {
         <div className="text-container">
           <h2 className='project-title'>Less, But Better</h2>
           <p>
-            Welcome to our exhibition. This application was designed with intention of observation and interaction with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <a href='https://unity.com/'><em>Unity</em></a>.
+            Welcome to our exhibition. This application was designed with intention of observation and interaction with <strong className='strength'>Smoothed Particle Hydrodynamics</strong> via <a href='https://unity.com/'><FaUnity className='unity'/><em>Unity</em></a>.
           </p>
           <p className='p2'>
             Inspired by the ethos of Dieter Rams, we present our findings
