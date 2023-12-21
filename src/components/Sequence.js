@@ -48,7 +48,7 @@ const Sequence = () => {
         to='void'
         spy={true}
         smooth='easeInOutQuart'
-        offset={920}
+        offset={1000}
         duration={40}
         className='sequence-down-icon'
       >
