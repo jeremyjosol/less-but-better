@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import './InfiniteVoid.css';  
 import movie from '../mp4/InfiniteVoid.mp4';
-import { GiGalaxy } from "react-icons/gi";
 
 const infiniteVoidSettings = {
   dots: true,
@@ -15,9 +14,6 @@ const infiniteVoidSettings = {
 const InfiniteVoid = () => {
   return (
     <div className="slider-container">
-      <h1 className="infinite-void">
-        <GiGalaxy className="infinite-void-icon" /> Infinite Void
-      </h1>
       <Slider {...infiniteVoidSettings}>
         <div>
           <div className="video-container">
