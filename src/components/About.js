@@ -64,7 +64,7 @@ const About = () => {
           href="https://matthias-research.github.io/pages/publications/sca03.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="research-link"
+          className="development-link"
         >
           <FaGithub /> DEVELOPMENT
         </a>

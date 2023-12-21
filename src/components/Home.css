@@ -125,6 +125,15 @@
   line-height: 1.2;
 }
 
+.text-container p {
+  max-width: 420px;
+}
+
+.text-container .p2 {
+  max-width: 600px;
+}
+
+
 @media screen and (max-width: 1220px) {
   .image-container {
     margin-right: 15px;
@@ -363,9 +372,10 @@
 }
 
 .strength {
-  font-weight: 800;
-  color: black;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
   letter-spacing: -0.5px;
+  border-bottom: dotted rgb(71, 203, 255) 9px;
 }
 
 .learn-more {
@@ -378,13 +388,11 @@
   text-decoration: none;
   outline: none;
   width: 150px;
-  transition: background 0.8s ease-in-out;
 }
 
 .learn-more:hover {
-  background: linear-gradient(45deg, #FF4081, #2196F3); 
+  background: linear-gradient(90deg, #FF4081, #2196F3); 
   color: white;
-  transition: background 0.8s ease-in-out;
 }
 
 @media screen and (max-width: 900px) {

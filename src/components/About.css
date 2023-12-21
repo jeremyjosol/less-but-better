@@ -160,7 +160,7 @@
   background-color: rgba(255, 255, 255, 0.112);
 }
 
-.research-link {
+.research-link, .development-link {
   background: rgba(255, 255, 255, 0.1);
   display: inline-block;
   margin-top: 50px;
@@ -174,7 +174,7 @@
   transition: background 0.3s, border 0.3s, box-shadow 0.3s;
 }
 
-.research-link:hover {
+.research-link:hover, .development-link:hover {
   background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
   color: rgb(0, 187, 255);
