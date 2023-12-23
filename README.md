@@ -1,7 +1,14 @@
 # Less, But Better
 
+<div align="center">
+<img src='./src/img/Splash.jpg'>
+
 ## About
-Context
+A Dieter Rams inspired web application built with React components showcasing a 'Smoothed Particle Hydrodynamics' simulation built using the Unity engine.
+
+[Capstone Proposal repository](https://github.com/jeremyjosol/capstone)
+
+[Unity practice repository](https://github.com/jeremyjosol/LessAndMore)
 
 ## Technologies Used
 
