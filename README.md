@@ -2,6 +2,7 @@
 
 <div align="center">
 <img src='./src/img/Splash.jpg'>
+</div>
 
 ## About
 A Dieter Rams inspired web application built with React components showcasing a 'Smoothed Particle Hydrodynamics' simulation built using the Unity engine.
