@@ -5,11 +5,7 @@
 </div>
 
 ## About
-A Dieter Rams inspired web application built with React components showcasing a 'Smoothed Particle Hydrodynamics' simulation built using the Unity engine.
-
-[Capstone Proposal repository](https://github.com/jeremyjosol/capstone)
-
-[Unity practice repository](https://github.com/jeremyjosol/LessAndMore)
+A Dieter Rams inspired web application built with React components showcasing a 'Smoothed Particle Hydrodynamics' simulation built using the Unity engine. This project was intended specifically for the research & development of the concept of SPH and implements techniques from various resources to execute the simulation.
 
 ## Technologies Used
 
